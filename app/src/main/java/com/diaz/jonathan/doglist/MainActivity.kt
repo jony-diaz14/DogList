@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
         setContentView(binding.root)
         binding.svDogs.setOnQueryTextListener(this)
         initRecyclerview()
-
+//jony
     }
     private fun initRecyclerview(){
         adapter = DogAdapter(dogImages)
